@@ -1,6 +1,7 @@
 <?php
 
-namespace T4webDomain\ServiceInterface;
+namespace T4webDomainInterface\Service;
+
 
 interface CreatorInterface {
 

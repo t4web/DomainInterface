@@ -6,12 +6,6 @@ namespace T4webDomain\ServiceInterface;
 interface FinderInterface
 {
     /**
-     * @param DbRepository $repositoryDb
-     * @param CriteriaFactory $criteriaFactory
-     */
-    public function __construct(DbRepository $repositoryDb, CriteriaFactory $criteriaFactory);
-
-    /**
      * @param array $filter
      * @return mixed
      */

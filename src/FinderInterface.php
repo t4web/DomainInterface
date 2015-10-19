@@ -19,24 +19,9 @@ interface FinderInterface
 
     /**
      * @param array $filter
-     * @return mixed
+     * @return int
      */
     public function count(array $filter);
-
-    /**
-     * @param array $filter
-     * @param int $limit
-     * @param int $page
-     * @return mixed
-     */
-    public function findByFilter(array $filter = array(), $limit = 20, $page = 1);
-
-    /**
-     * @param array $filter
-     * @param array $columns
-     * @return mixed
-     */
-    public function findManyByColumns(array $filter, array $columns);
 
     /**
      * @param mixed $id

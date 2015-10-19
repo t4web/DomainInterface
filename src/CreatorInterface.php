@@ -10,8 +10,4 @@ interface CreatorInterface {
      */
     public function create(array $data);
 
-    /**
-     * @return array
-     */
-    public function getValues();
 }

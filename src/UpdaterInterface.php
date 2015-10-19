@@ -11,8 +11,4 @@ interface UpdaterInterface {
      */
     public function update($id, array $data);
 
-    /**
-     * @return array
-     */
-    public function getValues();
 }

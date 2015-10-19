@@ -8,7 +8,7 @@ interface UpdaterInterface {
     /**
      * @param mixed $id
      * @param array $data
-     * @return mixed
+     * @return EntityInterface|null
      */
     public function update($id, array $data);
 

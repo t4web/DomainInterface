@@ -2,18 +2,19 @@
 
 namespace T4webDomainInterface\Service;
 
+use T4webDomainInterface\EntityInterface;
 
 interface FinderInterface
 {
     /**
      * @param array $filter
-     * @return mixed
+     * @return EntityInterface|null
      */
     public function find(array $filter);
 
     /**
      * @param array $filter
-     * @return mixed
+     * @return array of EntityInterface
      */
     public function findMany(array $filter = array());
 
@@ -25,13 +26,13 @@ interface FinderInterface
 
     /**
      * @param mixed $id
-     * @return mixed
+     * @return EntityInterface|null
      */
     public function getById($id);
 
     /**
      * @param array $ids
-     * @return mixed
+     * @return array of EntityInterface
      */
     public function getByIds(array $ids);
 }

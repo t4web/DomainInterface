@@ -1,6 +1,6 @@
 <?php
 
-namespace T4webBase\Domain\Service;
+namespace T4webDomain\ServiceInterface;
 
 interface UpdaterInterface {
 

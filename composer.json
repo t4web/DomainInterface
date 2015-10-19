@@ -1,0 +1,17 @@
+{
+  "name": "t4web/domain-service-interface",
+  "description": "Common interface for Domain services",
+  "keywords": ["domain-service"],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Domain\\ServiceInterface\\": "src/"
+    }
+  },
+  "suggest": {
+    "t4web/base": "ZF2 Module. A set of generic (abstract) classes which are commonly used across multiple modules"
+  }
+}

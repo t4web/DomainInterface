@@ -1,2 +1,2 @@
 # Domain Interfaces
-Interfaces for Domain services
+Interfaces for Domain layer

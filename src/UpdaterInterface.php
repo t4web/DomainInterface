@@ -5,7 +5,7 @@ namespace T4webDomain\ServiceInterface;
 interface UpdaterInterface {
 
     /**
-     * @param integer $id
+     * @param mixed $id
      * @param array $data
      * @return mixed
      */

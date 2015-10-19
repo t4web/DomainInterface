@@ -39,7 +39,7 @@ interface FinderInterface
     public function findManyByColumns(array $filter, array $columns);
 
     /**
-     * @param integer $id
+     * @param mixed $id
      * @return mixed
      */
     public function getById($id);

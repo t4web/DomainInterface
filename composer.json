@@ -1,5 +1,5 @@
 {
-  "name": "t4web/domain-service-interface",
+  "name": "t4web/domain-interface",
   "description": "Common interface for Domain services",
   "keywords": ["domain-service"],
   "license": "BSD-3-Clause",
@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Domain\\ServiceInterface\\": "src/"
+      "DomainInterface\\": "src/"
     }
   },
   "suggest": {

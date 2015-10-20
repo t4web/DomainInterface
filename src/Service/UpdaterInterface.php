@@ -3,7 +3,7 @@
 namespace T4webDomainInterface\Service;
 
 
-interface UpdaterInterface {
+interface UpdaterInterface extends ErrorAwareInterface {
 
     /**
      * @param mixed $id

@@ -4,7 +4,7 @@ namespace T4webDomainInterface\Service;
 
 use T4webDomainInterface\EntityInterface;
 
-interface CreatorInterface {
+interface CreatorInterface extends ErrorAwareInterface {
 
     /**
      * @param array $data

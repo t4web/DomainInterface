@@ -4,7 +4,7 @@ namespace T4webDomainInterface\Service;
 
 use T4webDomainInterface\EntityInterface;
 
-interface DeleterInterface {
+interface DeleterInterface extends ErrorAwareInterface {
 
     /**
      * @param mixed $id

@@ -22,13 +22,22 @@ interface RepositoryInterface {
      * @param CriteriaInterface $criteria
      * @return EntityInterface
      */
-    public function find(CriteriaInterface $criteria);
+    public function find(CriteriaInterface $criteria)
+    {
+        $select = $criteria->buildSelect();
+        $select->limit(1);
+        $this->tableGateway->selectWith($select);
+    }
 
     /**
      * @param CriteriaInterface $criteria
      * @return array of EntityInterface
      */
-    public function findMany(CriteriaInterface $criteria);
+    public function findMany(CriteriaInterface $criteria)
+    {
+        $select = $criteriaSet->buildSelect();
+        $this->tableGateway->selectWith($select);
+    }
 
     /**
      * @param CriteriaInterface $criteria

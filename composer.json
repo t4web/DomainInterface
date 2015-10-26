@@ -1,7 +1,7 @@
 {
   "name": "t4web/domain-interface",
   "description": "Common interface for Domain services",
-  "keywords": ["domain-service"],
+  "keywords": ["domain-service", "ddd"],
   "license": "BSD-3-Clause",
   "require": {
     "php": ">=5.5.0"

@@ -11,7 +11,7 @@ interface ErrorAwareInterface {
     public function setErrors(array $errors);
 
     /**
-     * @return InvalidInputErrorInterface
+     * @return array
      */
     public function getErrors();
 

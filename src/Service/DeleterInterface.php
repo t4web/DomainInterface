@@ -8,15 +8,13 @@ interface DeleterInterface extends ErrorAwareInterface {
 
     /**
      * @param mixed $id
-     * @param string $attribyteName
      * @return EntityInterface|null
      */
-    public function delete($id, $attribyteName = 'Id');
+    public function delete($id);
 
     /**
      * @param mixed $id
-     * @param string $attribyteName
-     * @return array of EntityInterface;
+     * @return EntityInterface[]|null;
      */
-    public function deleteAll($id, $attribyteName = 'Id');
+    public function deleteAll($id);
 }

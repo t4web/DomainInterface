@@ -31,8 +31,8 @@ interface RepositoryInterface {
     public function findMany(array $criteria);
 
     /**
-     * @param CriteriaInterface $criteria
+     * @param CriteriaInterface[] $criteria
      * @return int
      */
-    public function count(CriteriaInterface $criteria);
+    public function count(array $criteria);
 }

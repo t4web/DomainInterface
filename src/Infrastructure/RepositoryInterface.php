@@ -20,13 +20,13 @@ interface RepositoryInterface {
 
     /**
      * @param mixed $criteria
-     * @return EntityInterface
+     * @return EntityInterface|null
      */
     public function find($criteria);
 
     /**
      * @param mixed $criteria
-     * @return array of EntityInterface
+     * @return EntityInterface[]
      */
     public function findMany($criteria);
 

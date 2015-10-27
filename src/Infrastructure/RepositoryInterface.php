@@ -16,7 +16,7 @@ interface RepositoryInterface {
      * @param EntityInterface $entity
      * @return void
      */
-    public function delete(EntityInterface $entity);
+    public function remove(EntityInterface $entity);
 
     /**
      * @param CriteriaInterface[] $criteria

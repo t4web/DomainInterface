@@ -19,25 +19,16 @@ interface RepositoryInterface {
     public function delete(EntityInterface $entity);
 
     /**
-     * @param CriteriaInterface $criteria
+     * @param CriteriaInterface[] $criteria
      * @return EntityInterface
      */
-    public function find(CriteriaInterface $criteria)
-    {
-        $select = $criteria->buildSelect();
-        $select->limit(1);
-        $this->tableGateway->selectWith($select);
-    }
+    public function find(array $criteria);
 
     /**
-     * @param CriteriaInterface $criteria
+     * @param CriteriaInterface[] $criteria
      * @return array of EntityInterface
      */
-    public function findMany(CriteriaInterface $criteria)
-    {
-        $select = $criteriaSet->buildSelect();
-        $this->tableGateway->selectWith($select);
-    }
+    public function findMany(array $criteria);
 
     /**
      * @param CriteriaInterface $criteria

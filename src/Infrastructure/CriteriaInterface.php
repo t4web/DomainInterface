@@ -5,18 +5,23 @@ namespace T4webDomainInterface\Infrastructure;
 interface CriteriaInterface {
 
     /**
-     * @param string $table
-     * @param string $attribute
-     * @param mixed $value
-     * @param string $predicate
+     * @return string
      */
-    public function __construct($table, $attribute, $value, $predicate);
+    public function getEntityName();
 
     /**
-     * @param Select $select
-     *
-     * @return void
+     * @return string
      */
-    public function match($select);
+    public function getAttribute();
+
+    /**
+     * @return string
+     */
+    public function getPredicate();
+
+    /**
+     * @return mixed
+     */
+    public function getValue();
 
 }

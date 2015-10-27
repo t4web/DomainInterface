@@ -19,20 +19,20 @@ interface RepositoryInterface {
     public function remove(EntityInterface $entity);
 
     /**
-     * @param CriteriaInterface[] $criteria
+     * @param mixed $criteria
      * @return EntityInterface
      */
-    public function find(array $criteria);
+    public function find($criteria);
 
     /**
-     * @param CriteriaInterface[] $criteria
+     * @param mixed $criteria
      * @return array of EntityInterface
      */
-    public function findMany(array $criteria);
+    public function findMany($criteria);
 
     /**
-     * @param CriteriaInterface[] $criteria
+     * @param mixed $criteria
      * @return int
      */
-    public function count(array $criteria);
+    public function count($criteria);
 }

@@ -100,10 +100,10 @@ interface CriteriaInterface
     public function offset($offset);
 
     /**
-     * @param string $entityName
+     * @param CriteriaInterface $criteria
      * @return void
      */
-    public function relation($entityName);
+    public function relation(CriteriaInterface $criteria);
 
     /**
      * @return array

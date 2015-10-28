@@ -105,4 +105,9 @@ interface CriteriaInterface
      */
     public function relation($entityName);
 
+    /**
+     * @return array
+     */
+    public function toArray();
+
 }

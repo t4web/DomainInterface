@@ -40,5 +40,5 @@ interface RepositoryInterface
      * @param array $filter
      * @return CriteriaInterface
      */
-    public function createCriteria(array $filter);
+    public function createCriteria(array $filter = []);
 }

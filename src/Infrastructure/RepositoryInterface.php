@@ -4,8 +4,8 @@ namespace T4webDomainInterface\Infrastructure;
 
 use T4webDomainInterface\EntityInterface;
 
-interface RepositoryInterface {
-
+interface RepositoryInterface
+{
     /**
      * @param EntityInterface $entity
      * @return EntityInterface

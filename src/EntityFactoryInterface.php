@@ -2,8 +2,8 @@
 
 namespace T4webDomainInterface;
 
-interface EntityFactoryInterface {
-
+interface EntityFactoryInterface
+{
     /**
      * @param array $data
      * @return EntityInterface
@@ -15,5 +15,4 @@ interface EntityFactoryInterface {
      * @return mixed
      */
     public function createCollection(array $data);
-    
 }

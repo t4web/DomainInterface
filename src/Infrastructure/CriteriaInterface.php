@@ -145,5 +145,4 @@ interface CriteriaInterface
      * @return array
      */
     public function getOrder();
-
 }

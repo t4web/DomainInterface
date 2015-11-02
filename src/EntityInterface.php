@@ -3,8 +3,8 @@
 namespace T4webDomainInterface;
 
 
-interface EntityInterface {
-
+interface EntityInterface
+{
     /**
      * @return mixed
      */
@@ -21,6 +21,5 @@ interface EntityInterface {
      * @return self
      */
     public function populate(array $array = array());
-
 }
 

@@ -3,8 +3,8 @@
 namespace T4webDomainInterface;
 
 
-interface ErrorAwareInterface {
-
+interface ErrorAwareInterface
+{
     /**
      * @param array $errors
      */
@@ -19,5 +19,4 @@ interface ErrorAwareInterface {
      * @return bool
      */
     public function hasErrors();
-
 }

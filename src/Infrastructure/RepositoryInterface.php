@@ -35,4 +35,10 @@ interface RepositoryInterface
      * @return int
      */
     public function count($criteria);
+
+    /**
+     * @param array $filter
+     * @return CriteriaInterface
+     */
+    public function createCriteria(array $filter);
 }

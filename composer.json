@@ -12,6 +12,7 @@
     }
   },
   "suggest": {
-    "t4web/base": "ZF2 Module. A set of generic (abstract) classes which are commonly used across multiple modules"
+    "t4web/domain": "Domain Driven Design realization",
+    "t4web/infrastructure": "Infrastructure realization"
   }
 }

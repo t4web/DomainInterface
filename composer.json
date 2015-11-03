@@ -12,7 +12,7 @@
     }
   },
   "suggest": {
-    "t4web/domain": "Domain Driven Design realization",
-    "t4web/infrastructure": "Infrastructure realization"
+    "t4web/domain": "Domain Driven Design implementation",
+    "t4web/infrastructure": "Infrastructure implementation"
   }
 }

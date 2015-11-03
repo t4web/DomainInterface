@@ -14,7 +14,7 @@ interface FinderInterface
 
     /**
      * @param array $filter
-     * @return array of EntityInterface
+     * @return EntityInterface[]
      */
     public function findMany(array $filter = array());
 
@@ -32,7 +32,7 @@ interface FinderInterface
 
     /**
      * @param array $ids
-     * @return array of EntityInterface
+     * @return EntityInterface[]
      */
     public function getByIds(array $ids);
 }

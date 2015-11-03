@@ -8,7 +8,7 @@ interface RepositoryInterface
 {
     /**
      * @param EntityInterface $entity
-     * @return EntityInterface
+     * @return EntityInterface|int|null
      */
     public function add(EntityInterface $entity);
 

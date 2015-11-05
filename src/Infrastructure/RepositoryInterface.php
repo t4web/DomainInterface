@@ -31,6 +31,12 @@ interface RepositoryInterface
     public function findMany($criteria);
 
     /**
+     * @param mixed $id
+     * @return EntityInterface|null
+     */
+    public function findById($id);
+
+    /**
      * @param mixed $criteria
      * @return int
      */

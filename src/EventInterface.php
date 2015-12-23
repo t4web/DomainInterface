@@ -17,7 +17,18 @@ interface EventInterface
     public function getEntity();
 
     /**
-     * @return array
+     * @return mixed
      */
     public function getData();
+
+    /**
+     * @return mixed
+     */
+    public function getErrors();
+
+    /**
+     * @param array $errors
+     * @return mixed
+     */
+    public function setErrors(array $errors);
 }

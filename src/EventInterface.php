@@ -2,8 +2,6 @@
 
 namespace T4webDomainInterface;
 
-use T4webDomainInterface\EntityInterface;
-
 interface EventInterface
 {
     /**
@@ -20,6 +18,11 @@ interface EventInterface
      * @return mixed
      */
     public function getData();
+
+    /**
+     * @return mixed
+     */
+    public function getValidData();
 
     /**
      * @return mixed

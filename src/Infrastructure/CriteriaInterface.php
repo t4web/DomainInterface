@@ -11,6 +11,11 @@ interface CriteriaInterface
     public function getEntityName();
 
     /**
+     * @return mixed
+     */
+    public function getQuery();
+
+    /**
      * @param string $attribute
      * @param bool|int|float|string $value
      * @return $this
@@ -111,38 +116,8 @@ interface CriteriaInterface
     public function relation($entityName);
 
     /**
-     * @param string $entityName
-     * @return CriteriaInterface
+     * @param string $attribute
+     * @return string
      */
-    public function orCriteria($entityName = null);
-
-    /**
-     * @return CriteriaInterface[]
-     */
-    public function getRelations();
-
-    /**
-     * @return array
-     */
-    public function getPredicate();
-
-    /**
-     * @return CriteriaInterface[]
-     */
-    public function getOr();
-
-    /**
-     * @return int
-     */
-    public function getLimit();
-
-    /**
-     * @return int
-     */
-    public function getOffset();
-
-    /**
-     * @return array
-     */
-    public function getOrder();
+    public function getField($attribute);
 }
